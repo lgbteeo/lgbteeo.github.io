@@ -1,0 +1,9 @@
+<ul>
+  {% for supporter_hash in site.data.supporters %}
+  {% assign supporter = supporter_hash[1] %}
+
+  <li>{{ supporter.name }}, {{ supporter.descriptor }}, <a href="https://twitter.com/{{ supporter.twitter }}">@{{ supporter.twitter }}, <a href="{{ supporter.link }}">{{ supporter.link }}</a></li>
+
+  {% endfor %}
+
+</ul>
