@@ -2,7 +2,7 @@
   {% for supporter_hash in site.data.supporters %}
   {% assign supporter = supporter_hash[1] %}
 
-  <li>{{ supporter.name }}{% if supporter.descriptor %}, {{ supporter.descriptor }}{% endif %}{% if supporter.twitter %}, <a href="https://twitter.com/{{ supporter.twitter }}">@{{ supporter.twitter }}{% endif %}{% if supporter.link %}, <a href="{{ supporter.link }}">{{ supporter.link }}</a></li>{% endif %}
+  <li>{{ supporter.name }}{% if supporter.descriptor %}, {{ supporter.descriptor }}{% endif %}{% if supporter.twitter %}, <a href="https://twitter.com/{{ supporter.twitter }}">@{{ supporter.twitter }}</a>{% endif %}{% if supporter.link %}, <a href="{{ supporter.link }}">{{ supporter.link }}</a>{% endif %}</li>
 
   {% endfor %}
 
