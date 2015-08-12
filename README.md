@@ -15,4 +15,4 @@ descriptor:
 twitter:
 link:
 ```
-Then submit that pull request!
+Then save the file (and choose the option to create a new branch) and submit your pull request.
