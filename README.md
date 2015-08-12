@@ -4,7 +4,9 @@ LGBT Equal Employment Opportunity: The tech world is getting pretty good about L
 # How to add your name
 First, thank you. Ok, now...
 
-Create a new `[name].yml` file in the [_data/supporters](https://github.com/lgbteeo/lgbteeo.github.io/tree/master/_data/supporters) folder.
+Go to the [_data/supporters](https://github.com/lgbteeo/lgbteeo.github.io/tree/master/_data/supporters) folder.
+
+Add a new file by clicking on the plus sign in the header and name it `[name].yml`.
 
 In that file, you can include 4 data fields (just copy and paste):
 ```
